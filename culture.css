@@ -1,0 +1,113 @@
+body.turismo {
+  background-color: #f3e9dc; /* areia quente */
+  color: #2d1f0f;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-image: url('./image/wmremove-transformed.webp'); /* mantenha sua imagem */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 2rem;
+  background-color: rgba(107, 46, 30, 0.85); /* fundo vinho queimado translúcido */
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #ffecc7; /* bege claro */
+  background-color: #294936; /* verde escuro */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #3c6b52;
+  color: #fffdf2;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ffd369; /* dourado claro */
+  text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ffe9c5;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  background-color: #fffaf3; /* fundo claro areia */
+  border-radius: 12px;
+  overflow: hidden;
+  color: #3d2a1a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 1rem;
+  color: #ba3f1d; /* vermelho queimado */
+}
+
+.card p {
+  margin: 0 1rem 1rem;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #5e3b2c; /* marrom profundo */
+  color: #ffd369;
+  border-top: 3px solid #d19f68;
+}

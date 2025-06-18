@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3e9dc; /* areia quente */
+  color: #2d1f0f;
+  line-height: 1.6;
+  background-image: url('./image/wmremove-transformed.webp'); /* fundo padrão */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(107, 46, 30, 0.9); /* vinho queimado translúcido */
+  color: #ffd369;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+nav a {
+  color: #ffecc7; /* bege claro */
+  background-color: #294936; /* verde escuro */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #3c6b52;
+  color: #fffdf2;
+}
+
+section.curiosidades {
+  background-color: rgba(107, 46, 30, 0.9);
+  padding: 30px 10px;
+}
+
+h2 {
+  color: #ffd369; /* dourado claro */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.banner {
+  background-image: url('./image/imagem_home.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.texto-banner {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #d19f68; /* ouro velho */
+  color: #2d1f0f;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #b8824c;
+  color: #fffdf2;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 30px auto;
+  padding: 0 2rem;
+}
+
+.card {
+  background-color: #fffaf3; /* areia clara */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #ba3f1d; /* vermelho queimado */
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #3a2e1d;
+}
+
+footer {
+  background-color: #5e3b2c; /* marrom profundo */
+  color: #ffd369;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 3px solid #d19f68;
+}

@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  margin-top: -30px;
+  backdrop-filter: blur(8px);
+}
+.containerrr {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+a:hover{
+  color: #083d2d;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('./image/wmremove-transformed.webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #083d2d; /* verde escuro */
+  padding: 40px;
+}
+
+.container {
+  background-color: rgba(255, 242, 225, 0.95); /* areia clara */
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #083d2d; /* dourado antigo */
+  margin-bottom: 40px;
+  font-size: 2.8em;
+  text-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff7ec; /* bege claro */
+  border-left: 5px solid #083d2d;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  color: #083d2d;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 1.4em;
+  color: #5c1a1b; /* vermelho forte */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .card h2 {
+    font-size: 1.2em;
+  }
+
+  .card p {
+    font-size: 0.95em;
+  }
+}
