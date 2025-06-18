@@ -39,7 +39,7 @@ a:hover{
 }
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: url('./image/wmremove-transformed.webp') no-repeat center center fixed;
+  background: url('wmremove-transformed.webp') no-repeat center center fixed;
   background-size: cover;
   color: #083d2d; /* verde escuro */
   padding: 40px;
