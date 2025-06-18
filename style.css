@@ -9,7 +9,7 @@ body {
   background-color: #f3e9dc; /* areia quente */
   color: #2d1f0f;
   line-height: 1.6;
-  background-image: url('./image/wmremove-transformed.webp'); /* fundo padrão */
+  background-image: url('wmremove-transformed.webp'); /* fundo padrão */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .banner {
-  background-image: url('./image/imagem_home.jpg');
+  background-image: url('imagem_home.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
